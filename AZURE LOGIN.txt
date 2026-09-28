@@ -1,0 +1,9 @@
+[Tenant and subscription selection]
+
+No     Subscription name          Subscription ID                       Tenant
+-----  -------------------------  ------------------------------------  ------------------------------------
+[1] *  N/A(tenant level account)  773af67d-0d1e-403b-92c2-3dc991998967  773af67d-0d1e-403b-92c2-3dc991998967
+
+The default is marked with an *; the default tenant is '773af67d-0d1e-403b-92c2-3dc991998967' and subscription is 'N/A(tenant level account)' (773af67d-0d1e-403b-92c2-3dc991998967).
+
+Select a subscription and tenant (Type a number or Enter for no changes):
