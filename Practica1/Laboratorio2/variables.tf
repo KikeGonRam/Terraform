@@ -21,7 +21,7 @@ variable "environment" {
 variable "location" {
   description = "Región de Azure donde se desplegarán los recursos."
   type        = string
-  default     = "Central Mexico"
+  default     = "eastus"
 }
 
 variable "vnet_address_space" {
@@ -43,6 +43,6 @@ variable "tags" {
 variable "subscription_id" {
   description = "ID de la suscripción de Azure."
   type        = string
-  default     = "a1057d7f-0b0b-4735-81ed-1c67fed4aabb" # Reemplaza con tu ID de suscripción real
+  default     = null
   sensitive   = true
 }

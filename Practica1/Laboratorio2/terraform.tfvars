@@ -1,6 +1,6 @@
 project_name       = "myproject"
 environment        = "dev"
-location           = "Central Mexico"
+location           = "eastus"
 vnet_address_space = ["10.0.0.0/16"]
 
 tags = {
