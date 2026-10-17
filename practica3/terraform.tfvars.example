@@ -1,0 +1,7 @@
+location              = "mexicocentral"
+name_prefix           = "utvt-tf4-dev"
+unique_suffix         = "leg427tf4"
+vm_size               = "Standard_B2ats_v2"
+entra_admin_name      = "usuario@dominio.com"
+entra_admin_object_id = "00000000-0000-0000-0000-000000000000"
+ssh_public_key        = "ssh-ed25519 REEMPLAZAR_POR_TU_CLAVE_PUBLICA"
