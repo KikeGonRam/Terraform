@@ -12,3 +12,7 @@ override.tf.json
 .terraformrc
 terraform.rc
 *.exe
+
+# Datos sensibles / sesión
+AZURE LOGIN.txt
+*.tfstate.backup
