@@ -1,0 +1,16 @@
+# Dependabot: PR semanales con actualizaciones de dependencias.
+# Requiere activar 'Dependabot alerts' y 'security updates' en Settings > Code security.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: '08:00'
+      timezone: America/Mexico_City
+    commit-message:
+      prefix: chore(ci)
+    groups:
+      actions:
+        update-types: [minor, patch, major]
